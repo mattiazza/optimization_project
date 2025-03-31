@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "opt-project"
+version = "0.1.0"
+description = ""
+authors = ["Mattia Piazza, Emma Lovato"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+ipykernel = "^6.29.5"
+polar = "^0.0.127"
+seaborn = "^0.13.2"
+pytest = "^8.3.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
